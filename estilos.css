@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('gif1.gif');
+    
+}
+
+
+#textoOculto {
+    display: none;
+}
+#contenedor {
+   
+    
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    height: 100vh; 
+}
+button {
+    justify-content: center;
+    background-color: rgb(10, 10, 134);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    width: 20%;
+    height: 10%;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+p {
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: rgb(168, 168, 168);
+    font-size: 40px;
+}
+
+
